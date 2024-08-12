@@ -103,6 +103,10 @@ data:
         label: _("Docker storage")
         value: "/var/lib/docker"
         hint: _("Leave blank to use a custom /etc/docker/daemon.json")
+      - type: checkbox
+        name: IPv6
+        label: _("IPv6")
+        value: true
       - type: textInput
         name: dockerStatus
         label: _("Status")

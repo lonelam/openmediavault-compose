@@ -72,6 +72,10 @@
       "type": "string",
       "default": "/var/lib/docker"
     },
+    "ipv6": {
+      "type": "boolean",
+      "default": false
+    },
     "cachetimefiles": {
       "type": "integer",
       "minimum": 0,
